@@ -15,7 +15,7 @@ Add a question onto the page:
 
 between #bodystart and #bodyend:
 
-write question(id); with id being the kys_id in the kysymys-table.
+write question(id); with id being the kys_id in the kysymys-table. You do not need to add the answer choices on the page manually, they will be automatically fetched from the database.
 
 And to get a heading:
 
