@@ -11,4 +11,16 @@ You need to replace "yourxxx" with your database server name/address, username a
 
 After that, go into data/generate_db.sql and copy everything in the document using Ctrl+A. Then go to phpMyAdmin (or your desired MySQL interface and paste everything you just copied there and press "Go".
 
+Add a question onto the page:
+
+between #bodystart and #bodyend:
+
+write question(id); with id being the kys_id in the kysymys-table.
+
+And to get a heading:
+
+otsikko("title", "paragraph");
+
+where title is the heading text and paragraph is an additional text with a smaller font
+
 PLEASE NOTE: this readme is heavily in a work-in-progress state and the program itself isn't even near a production ready state. This github page will (hopefully) be heavily improved in the future.
