@@ -7,7 +7,7 @@ $vastaaja_email = $_COOKIE["vastaaja_email"];
 
 $tarkistaEmail = "SELECT vastaaja_email FROM vastaus WHERE vastaaja_email = $vastaaja_email;";
 $tarkistaEmailQuery = mysqli_query($conn, $tarkistaEmail);
-$emailMaara = mysqli_num_rows($tarkistaEmailQuery);
+//$emailMaara = mysqli_num_rows($tarkistaEmailQuery);
 
 if (isset($_COOKIE["infosubmitted"])) {
 

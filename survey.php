@@ -2,7 +2,7 @@
 include_once "data/functions.php";
 
 if (isset($_COOKIE["infosubmitted"])) {
-html_header("Kysely");
+html_header("Saab calendar vote");
 ?>
 
 <form action="submitform.php" method="post">
