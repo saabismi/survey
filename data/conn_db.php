@@ -1,7 +1,7 @@
 <?php
 
 $dbServername = "yourserver";
-$dbUsername = "yourusername";
+$dbUsername = "kayttajanimi";
 $dbPassword = "salasana";
 $dbName = "kyselysofta";
 
