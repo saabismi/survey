@@ -23,6 +23,10 @@ You need to replace "yourxxx" with your database server name/address, username a
 
 After that, go into data/generate_db.sql and copy everything in the document using Ctrl+A. Then go to phpMyAdmin (or your desired MySQL interface and paste everything you just copied there and press "Go".
 
+## Adminpanel
+
+Go to address/adminpanel and you can add questions and answers in a GUI. There's no password for entering the page so anyone can edit it... :D
+
 ## Add a question onto the page:
 
 between #bodystart and #bodyend:
